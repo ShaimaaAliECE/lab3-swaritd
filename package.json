@@ -1,0 +1,26 @@
+{
+  "name": "doodle",
+  "version": "1.0.0",
+  "description": "se3316 lab3 - swarit dholakia (sdholaki)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaimaaAliECE/lab3-swaritd.git"
+  },
+  "keywords": [
+    "3316lab3"
+  ],
+  "author": "Swarit Dholakia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaimaaAliECE/lab3-swaritd/issues"
+  },
+  "homepage": "https://github.com/ShaimaaAliECE/lab3-swaritd#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
