@@ -1,3 +1,5 @@
+// swarit dholakia (sdholaki) - se3316 - lab3
+
 const mysql = require('mysql');
 
 function newConnection()
