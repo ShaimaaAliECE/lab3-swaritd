@@ -13,13 +13,13 @@ const connection = mysql.createConnection({
 
 connection.connect();
 
-//if there are tables in place already then reset them
+//drop existing tables
 connection.query(`Drop Table Time`,
                 (err,rows,fields) => {
                     if (err)
                         console.log(err);
                     else
-                        console.log('Table Dropped');
+                        console.log('This Table is now ropped');
                 }
             )
 
@@ -28,7 +28,7 @@ connection.query(`Drop Table Users`,
                 if (err)
                     console.log(err);
                 else
-                    console.log('Table Dropped');
+                    console.log('This Table is now Dropped');
             }
         )
 
@@ -52,7 +52,7 @@ connection.query(`CREATE TABLE Time
                 if (err)
                     console.log(err);
                 else
-                    console.log('Table Created');
+                    console.log('This Table is Created');
             })
 
 //1 represents true, 0 represents false
