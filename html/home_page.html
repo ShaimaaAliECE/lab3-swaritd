@@ -1,0 +1,62 @@
+// swarit dholakia (sdholaki) - se3316 - lab3
+
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>3316-Lab3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h2>Doodle App</h2> 
+
+        <p>
+            Use 24-hour times. CLick LIST TIME to view times times list to see available times, then edit them.
+        </p>
+
+        <br/>
+
+        <a href='/guest'>Log-in as a guest</a>
+
+        <br>
+        <br>
+        <br>
+
+        <hr>
+
+        <br/>
+
+        <form action = '/login' method='get'> 
+            user name : <input name = 'usr' type = 'text'/>
+            <br/> 
+            password : <input name = 'pwd' type = 'text'/>
+            <br/>
+            <input type = 'submit'/>
+        </form>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <div classname = 'timeTable'>
+            <form action = '/timeDisplay' method = 'get'>
+                <input type = 'submit' value = 'display the times'/>
+            </form>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <div classname = 'usersTable'>
+            <form action = '/userDisplay' method = 'get'>
+                <input type = 'submit' value = 'display the users with their availability'/>
+            </form>
+        </div>
+
+        
+    </body>
+</html>
